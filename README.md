@@ -1,4 +1,4 @@
-## This framework is designed for end-to-end testing os webpage
+## This framework is designed for end-to-end testing of webpage
 
 ### Tools used:
 

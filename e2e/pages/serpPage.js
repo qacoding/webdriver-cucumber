@@ -11,6 +11,7 @@ let serp = {
 
   getPageTitle(){
     return(browser.getTitle());
+
   },
 
 

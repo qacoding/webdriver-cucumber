@@ -16,11 +16,12 @@ Given('I start on a SERP page for the word {string}', (text) => {
  // browser.url(`/browse/${text}`);
   serpPage.open(text);
   browser.pause(5000);
-});
+ });
 
  Then(/^I expect the title of the page "([^"]*)"$/, (title) => {
    browser.pause(5000);
   // console.log(serpPage.getPageTitle());
+  //console.log(browser.getUrl());
    expect(serpPage.getPageTitle()).to.be.eql(title);
  });
 
